@@ -1,3 +1,7 @@
+/*
+    Author: Aldanis Vigo <aldanisvigo@gmail.com>
+    Date: Fri Nov 21st 2025
+*/
 #include <gtkmm.h>
 #include "ui/CircuitCanvas.h"
 #include <iostream>
