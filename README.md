@@ -42,3 +42,52 @@ On macOS, you can install dependencies via **Homebrew**:
 
 ```bash
 brew install gtkmm3 cairomm nlohmann-json
+```
+
+---
+
+## Build & Run
+
+### Building the Project
+
+**Clone the repository**
+
+```bash
+git clone https://github.com/yourusername/ACad.git
+cd ACad
+```
+
+**Create a build directory**
+
+```bash
+mkdir build
+cd build
+```
+
+**Generate build files with CMake**
+
+```bash
+cmake ..
+```
+
+**Compile the project**
+
+```bash
+make
+```
+
+The executable will be located at `bin/ACad`.
+
+### Running the Program
+
+From the build directory:
+
+```bash
+./bin/ACad
+```
+
+Or from the project root:
+
+```bash
+./build/bin/ACad
+```
